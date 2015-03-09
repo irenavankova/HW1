@@ -1,0 +1,1 @@
+Gauss-Seidel would be quite more difficult to implement in parallel since we are continuosly updating array fields and working with them right away to compute next entries, unlike Jacobi, where next iteration is computed strictly from the previous iteration.

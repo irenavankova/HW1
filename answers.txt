@@ -1,0 +1,5 @@
+Answers to questions:
+Gauss-Seidel would be quite more difficult to implement in parallel since we are continuosly updating array fields and working with them right away to compute next entries, unlike Jacobi, where next iteration is computed strictly from the previous iteration.
+
+Note:
+In initial stages of the HW I collaborated with Yair Daon and we worked in his repository, but then we decided to finilize the HW in the style as each of us preferes.
