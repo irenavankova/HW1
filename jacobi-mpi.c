@@ -89,12 +89,13 @@ while ( k < T ) {
 			u[i] = unew[i]; //update u
 		}
 	}
-	printf("Finished iteration #: %i\n", k);
+	//printf("Finished iteration #: %i\n", k);
 	k++;
 }
 
 //end iteration
 printf("HAPPY END\n");
+/*
 //MPI_Waitall(&request, &status);
 printf("This is the result:\n");
 for ( i = 0; i < size; i++ ){
@@ -104,7 +105,7 @@ for ( i = 0; i < size; i++ ){
 			printf("%3.2f\n", u[k]);
 		}
 	}
-}
+}*/
 MPI_Finalize();
 // free everything
 free(unew);
